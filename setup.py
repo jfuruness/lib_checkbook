@@ -8,7 +8,7 @@ setup(
     name='lib_checkbook',
     author="Justin Furuness",
     author_email="jfuruness@gmail.com",
-    version="0.0.1",
+    version="0.0.2",
     url='https://github.com/jfuruness/lib_checkbook.git',
     license="BSD",
     description="Checkbook api calls",
