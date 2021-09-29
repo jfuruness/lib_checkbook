@@ -30,7 +30,7 @@ The script will validate and normalize the email. Then the check will be sent. A
 First, export your API keys. I used the default sandbox API keys because my sandbox API keys were not authenticating properly, and I don't have time to contact support.
 
 ```
-export CHECKBOOK_API_KEY="d6aa2703655f4baexport"
+export CHECKBOOK_API_KEY="d6aa2703655f4ba2af2a56202961ca86"
 export CHECKBOOK_API_SECRET="dXbCgzYBMibj8ZwuQMd2NXr6rtvjZ8"
 ```
 
