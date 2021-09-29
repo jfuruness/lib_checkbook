@@ -44,7 +44,7 @@ class CheckSender:
             for row in csv.DictReader(f):
                 try:
                     # Email validation and normalization
-                    email_addr = self._get_email(row["Email"])
+                    email_addr = self._get_email(row["Address"])
                     self._send_check_to_email(row, email_addr)
                 except (EmailSyntaxError, InvalidAmountException) as e:
                     row[err_str] = str(e)
@@ -112,5 +112,4 @@ class CheckSender:
                 # It keeps saying that I am unauthorized.
                 # Maybe sandbox mode doesn't want me sending checks to random people
                 # I tried sending it to myself though, and it still failed
-                #"Authorization": f"{self.api_key}:{self.api_secret}"}
-                "Authorization": "d6aa2703655f4ba2af2a56202961ca86:dXbCgzYBMibj8ZwuQMd2NXr6rtvjZ8"}
+                "Authorization": f"{self.api_key}:{self.api_secret}"}
