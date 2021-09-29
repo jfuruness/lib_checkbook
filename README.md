@@ -76,6 +76,7 @@ This will install the package and all of it's python dependencies.
 
 ## History
 * [lib\_checkbook](#lib_checkbook)
+* 0.0.2 Changed input CSV to have address
 * 0.0.1 First working version
 
 ## Credits
